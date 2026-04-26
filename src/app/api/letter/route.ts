@@ -6,11 +6,13 @@ import { readNotebookAsText } from '@/services/notebook';
 import { readFileSync, existsSync } from 'fs';
 import { join } from 'path';
 
+export const maxDuration = 60;
+
 export async function POST() {
   const map = loadPersonhoodMap();
   const preferred_name = map.person.preferred_name;
   const personhood_document = JSON.stringify(map, null, 2);
-  const notebook = readNotebookAsText();
+  const notebook = await readNotebookAsText();
   const routines = JSON.stringify(map.routines, null, 2);
 
   // Load conversation log

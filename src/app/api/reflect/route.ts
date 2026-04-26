@@ -5,6 +5,8 @@ import { readNotebook, readNotebookAsText, writeNotebookFile, appendToNotebook }
 import { readFileSync, existsSync } from 'fs';
 import { join } from 'path';
 
+export const maxDuration = 60;
+
 const SYSTEM_PROMPT = `You are Kith performing your nightly reflection on today's conversations with {{preferred_name}}.
 
 Your job is to analyse the full conversation log and produce four structured outputs:
@@ -87,7 +89,7 @@ export async function POST() {
     ? readFileSync(convPath, 'utf-8').trim()
     : '(no conversations today)';
 
-  const notebook = readNotebookAsText();
+  const notebook = await readNotebookAsText();
   const today = new Date().toISOString().split('T')[0];
 
   const systemPrompt = SYSTEM_PROMPT
@@ -121,38 +123,36 @@ ${result.doctors_note.behavioural_changes.map((i: string) => `- [Behaviour] ${i}
 ${result.doctors_note.physical_complaints.map((i: string) => `- [Physical] ${i}`).join('\n')}
 ${result.doctors_note.monitoring_suggestions.map((i: string) => `- [Watch] ${i}`).join('\n')}
 `;
-    writeNotebookFile('today.md', notebookEntry);
+    await writeNotebookFile('today.md', notebookEntry);
 
     // ── 2. Notebook restructure ───────────────────────────────────────
     const restructure = result.notebook_restructure ?? {};
 
     // Promote stable patterns → recurring_themes.md
     if (restructure.add_to_recurring_themes?.trim()) {
-      appendToNotebook('recurring_themes.md', restructure.add_to_recurring_themes.trim());
+      await appendToNotebook('recurring_themes.md', restructure.add_to_recurring_themes.trim());
     }
 
-    // Preserve joy moments → joy_log.md
     if (restructure.add_to_joy_log?.trim()) {
-      appendToNotebook('joy_log.md', restructure.add_to_joy_log.trim());
+      await appendToNotebook('joy_log.md', restructure.add_to_joy_log.trim());
     }
 
-    // Archive resolved concerns — read concerns.md and filter out resolved items
     const resolved: string[] = restructure.resolved_concerns ?? [];
     if (resolved.length > 0) {
-      const currentConcerns = readNotebook()['concerns.md'];
+      const currentConcerns = (await readNotebook())['concerns.md'];
       if (currentConcerns) {
         const filtered = currentConcerns
           .split('\n')
           .filter(line => !resolved.some(r => line.includes(r)))
           .join('\n')
           .trim();
-        writeNotebookFile('concerns.md', filtered || '(no active concerns)');
+        await writeNotebookFile('concerns.md', filtered || '(no active concerns)');
       }
     }
 
     // ── 3. Append urgent items to concerns.md ────────────────────────
     if (result.caregiver_alert.needs_attention && result.caregiver_alert.items.length) {
-      appendToNotebook(
+      await appendToNotebook(
         'concerns.md',
         `[${today}] ${result.caregiver_alert.items.join(' | ')}`
       );

@@ -2,7 +2,7 @@ import { callClaude, TASK_BUDGETS, type KithMessage } from './claude';
 import { loadPrompt } from './promptLoader';
 import { loadPersonhoodMap } from '../models/personhood';
 import { readNotebookAsText, appendToNotebook, type NotebookFile } from './notebook';
-import { appendFileSync } from 'fs';
+import { kvAppend } from './storage';
 import { join } from 'path';
 
 export interface KithResponse {
@@ -17,7 +17,7 @@ export async function chat(
   history: KithMessage[] = []
 ): Promise<KithResponse> {
   const map = loadPersonhoodMap();
-  const notebook = readNotebookAsText();
+  const notebook = await readNotebookAsText();
   const preferred_name = map.person.preferred_name;
 
   const now = new Date();
@@ -47,7 +47,6 @@ export async function chat(
     last_10_turns: last_10_turns || '(start of conversation)',
   });
 
-  // Adaptive thinking: use xhigh for distressed/complex turns, medium for simple greetings
   const isComplex = isComplexUtterance(utterance, map.comfort_and_avoid.topics_to_avoid);
   const effort = isComplex ? 'xhigh' : 'medium';
 
@@ -65,22 +64,22 @@ export async function chat(
 
   const parsed = parseResponse(raw);
 
-  // Persist observation to conversation log
-  logConversation(utterance, parsed);
+  // Persist conversation (KV in prod, filesystem in dev)
+  await logConversation(utterance, parsed);
 
   // Write notebook updates
-  for (const [file, content] of Object.entries(parsed.notebook_updates)) {
-    if (content) {
-      appendToNotebook(file as NotebookFile, content);
-    }
-  }
+  await Promise.all(
+    Object.entries(parsed.notebook_updates).map(([file, content]) =>
+      content ? appendToNotebook(file as NotebookFile, content) : Promise.resolve()
+    )
+  );
 
   return parsed;
 }
 
 function isComplexUtterance(utterance: string, avoidTopics: string[]): boolean {
   const lower = utterance.toLowerCase();
-  const riskWords = ['fell', "can't breathe", 'bleeding', 'hurt', 'die', 'scared', 'pills', 'lost', 'don\'t know'];
+  const riskWords = ['fell', "can't breathe", 'bleeding', 'hurt', 'die', 'scared', 'pills', 'lost', "don't know"];
   if (riskWords.some(w => lower.includes(w))) return true;
   if (avoidTopics.some(t => lower.includes(t.substring(0, 15).toLowerCase()))) return true;
   if (lower.length > 120) return true;
@@ -88,10 +87,8 @@ function isComplexUtterance(utterance: string, avoidTopics: string[]): boolean {
 }
 
 function parseResponse(raw: string): KithResponse {
-  // Claude may wrap JSON in markdown code fences
   const jsonMatch = raw.match(/```(?:json)?\s*([\s\S]*?)```/) ?? raw.match(/(\{[\s\S]*\})/);
   const jsonStr = jsonMatch ? jsonMatch[1] : raw;
-
   try {
     const parsed = JSON.parse(jsonStr.trim());
     return {
@@ -101,7 +98,6 @@ function parseResponse(raw: string): KithResponse {
       notebook_updates: parsed.notebook_updates ?? {},
     };
   } catch {
-    // Fallback if JSON parse fails — return raw as spoken_response
     return {
       spoken_response: raw.trim(),
       observation: '(parse error — raw response returned)',
@@ -111,7 +107,7 @@ function parseResponse(raw: string): KithResponse {
   }
 }
 
-function logConversation(utterance: string, response: KithResponse) {
+async function logConversation(utterance: string, response: KithResponse) {
   const entry = JSON.stringify({
     ts: new Date().toISOString(),
     user: utterance,
@@ -120,9 +116,6 @@ function logConversation(utterance: string, response: KithResponse) {
     risk_flag: response.risk_flag,
   }) + '\n';
 
-  try {
-    appendFileSync(join(process.cwd(), 'data', 'conversations.jsonl'), entry);
-  } catch {
-    // Non-fatal — file may not exist yet
-  }
+  const fsPath = join(process.cwd(), 'data', 'conversations.jsonl');
+  await kvAppend('conversations:log', fsPath, entry);
 }

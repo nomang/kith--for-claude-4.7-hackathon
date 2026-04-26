@@ -3,6 +3,8 @@ import Anthropic from '@anthropic-ai/sdk';
 import { callClaude, TASK_BUDGETS } from '@/services/claude';
 import { loadPrompt } from '@/services/promptLoader';
 
+export const maxDuration = 60;
+
 const MODEL = 'claude-opus-4-7';
 const BATCH_SIZE = 10;
 

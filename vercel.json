@@ -1,0 +1,9 @@
+{
+  "functions": {
+    "src/app/api/letter/route.ts":         { "maxDuration": 60 },
+    "src/app/api/shoebox/route.ts":        { "maxDuration": 60 },
+    "src/app/api/reflect/route.ts":        { "maxDuration": 60 },
+    "src/app/api/ask/route.ts":            { "maxDuration": 60 },
+    "src/app/api/family-letter/generate/route.ts": { "maxDuration": 60 }
+  }
+}

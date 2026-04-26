@@ -3,6 +3,8 @@ import { callClaudeAgentLoop } from '@/services/claudeAgent';
 import { loadPrompt } from '@/services/promptLoader';
 import { loadPersonhoodMapFixed } from '@/models/personhoodMap';
 
+export const maxDuration = 60;
+
 export async function POST(req: NextRequest) {
   const { question } = await req.json() as { question: string };
 

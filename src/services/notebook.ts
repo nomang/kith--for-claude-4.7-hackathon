@@ -1,5 +1,6 @@
-import { readFileSync, writeFileSync, existsSync } from 'fs';
+import { readFileSync, existsSync } from 'fs';
 import { join } from 'path';
+import { kvSet, kvGet, kvAppend } from './storage';
 
 const NOTEBOOK_DIR = join(process.cwd(), 'data', 'kith_notebook');
 
@@ -13,28 +14,43 @@ const NOTEBOOK_FILES = [
 
 export type NotebookFile = (typeof NOTEBOOK_FILES)[number];
 
-export function readNotebook(): Record<NotebookFile, string> {
-  const result = {} as Record<NotebookFile, string>;
-  for (const file of NOTEBOOK_FILES) {
-    const path = join(NOTEBOOK_DIR, file);
-    result[file] = existsSync(path) ? readFileSync(path, 'utf-8') : '';
-  }
-  return result;
+function fsPath(file: NotebookFile) {
+  return join(NOTEBOOK_DIR, file);
 }
 
-export function readNotebookAsText(): string {
-  const notebook = readNotebook();
+function kvKey(file: NotebookFile) {
+  return `notebook:${file}`;
+}
+
+export async function readNotebook(): Promise<Record<NotebookFile, string>> {
+  const entries = await Promise.all(
+    NOTEBOOK_FILES.map(async (file) => [file, await kvGet(kvKey(file), fsPath(file))] as const)
+  );
+  return Object.fromEntries(entries) as Record<NotebookFile, string>;
+}
+
+export async function readNotebookAsText(): Promise<string> {
+  const notebook = await readNotebook();
   return NOTEBOOK_FILES.map(f => `### ${f}\n${notebook[f] || '(empty)'}`).join('\n\n');
 }
 
-export function appendToNotebook(file: NotebookFile, content: string): void {
-  const path = join(NOTEBOOK_DIR, file);
-  const existing = existsSync(path) ? readFileSync(path, 'utf-8') : '';
-  const timestamp = new Date().toISOString().split('T')[0];
-  writeFileSync(path, `${existing}\n\n---\n*${timestamp}*\n${content}`.trimStart());
+export async function appendToNotebook(file: NotebookFile, content: string): Promise<void> {
+  await kvAppend(kvKey(file), fsPath(file), content);
 }
 
-export function writeNotebookFile(file: NotebookFile, content: string): void {
-  const path = join(NOTEBOOK_DIR, file);
-  writeFileSync(path, content, 'utf-8');
+export async function writeNotebookFile(file: NotebookFile, content: string): Promise<void> {
+  await kvSet(
+    process.env.KV_REST_API_URL || process.env.KV_URL ? kvKey(file) : fsPath(file),
+    content
+  );
+}
+
+/** Synchronous read for local dev / build-time use only (not KV-aware) */
+export function readNotebookSync(): Record<NotebookFile, string> {
+  const result = {} as Record<NotebookFile, string>;
+  for (const file of NOTEBOOK_FILES) {
+    const p = fsPath(file);
+    result[file] = existsSync(p) ? readFileSync(p, 'utf-8') : '';
+  }
+  return result;
 }
