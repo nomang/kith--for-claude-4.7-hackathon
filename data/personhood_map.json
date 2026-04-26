@@ -1,0 +1,150 @@
+{
+  "patient_name": "Eleanor Marsh",
+  "caregiver_name": "Carol Marsh-Huang",
+  "date_generated": "2026-04-24",
+  "important_people": [
+    {
+      "name": "George",
+      "relationship": "husband (in memory)",
+      "details": "58-year marriage. Brought tea every morning. Pulled the car over for every maple on the foliage drives. Ellie speaks of him warmly, often in the present tense.",
+      "is_living": false,
+      "known_or_inferred": "known"
+    },
+    {
+      "name": "Carol",
+      "relationship": "daughter",
+      "details": "Lives nearby. Visits often. Tends to hover when Ellie bakes. Set up Kith.",
+      "is_living": true,
+      "known_or_inferred": "known"
+    },
+    {
+      "name": "Daniel",
+      "relationship": "son",
+      "details": "Lives in Portland, Oregon. Landscape architect.",
+      "is_living": true,
+      "known_or_inferred": "known"
+    },
+    {
+      "name": "Lily",
+      "relationship": "granddaughter (Carol's daughter, age 11)",
+      "details": "Was photographed holding Mary Oliver before Ellie knew she was reading him. This quietly delights Ellie.",
+      "is_living": true,
+      "known_or_inferred": "known"
+    },
+    {
+      "name": "Oliver",
+      "relationship": "grandson (Daniel's son, age 21)",
+      "details": "Eldest grandchild. Easy, gentle. Always has his arm around Lily.",
+      "is_living": true,
+      "known_or_inferred": "known"
+    },
+    {
+      "name": "Ruth",
+      "relationship": "oldest friend",
+      "details": "Wrote the original lemon drizzle recipe in pencil. They have been friends since childhood.",
+      "is_living": true,
+      "known_or_inferred": "known"
+    }
+  ],
+  "familiar_memories": [
+    {
+      "title": "The foliage drives",
+      "description": "Every October, George and Ellie drove the Stowe road. George pulled over eleven times in 2012. They stopped at Bishop's Orchard for apples and cider. Ellie wrote on the back of the 2012 photo: 'Worth it.'",
+      "known_or_inferred": "known"
+    },
+    {
+      "title": "Trust the drizzle",
+      "description": "Ruth's lemon drizzle recipe in pencil. Ellie added at the bottom in ink: 'Trust the drizzle. \u2014 E.M.' Carol once measured everything wrong; Ellie said nothing.",
+      "known_or_inferred": "known"
+    },
+    {
+      "title": "Lily and Mary Oliver",
+      "description": "A 2024 photo shows Lily (11) holding a Mary Oliver book \u2014 before Ellie knew. The Sunday reading sessions came after. Ellie was quietly delighted when she found out.",
+      "known_or_inferred": "known"
+    },
+    {
+      "title": "The mint marker",
+      "description": "The herb garden stake for mint reads: 'MINT \u2014 do not trust.' In Ellie's own handwriting. She put it there herself.",
+      "known_or_inferred": "known"
+    },
+    {
+      "title": "The library nameplate",
+      "description": "Thirty years at Burlington Public Library. The reference desk plaque read 'Eleanor G. Marsh'. A Mary Oliver quotation pinned above the desk. A patron named Marcus had the Saturday SET ASIDE basket.",
+      "known_or_inferred": "known"
+    }
+  ],
+  "routines": [
+    {
+      "when": "early morning",
+      "activity": "tea in the blue ceramic mug (chipped rim \u2014 her mug, no other), reading before anything else",
+      "known_or_inferred": "known"
+    },
+    {
+      "when": "morning",
+      "activity": "herb garden if weather allows",
+      "known_or_inferred": "known"
+    },
+    {
+      "when": "Sunday afternoon",
+      "activity": "Mary Oliver \u2014 reading aloud or silently",
+      "known_or_inferred": "known"
+    },
+    {
+      "when": "late afternoon (~4pm)",
+      "activity": "can become anxious; tea in the blue mug helps most",
+      "known_or_inferred": "known"
+    }
+  ],
+  "comfort_topics": [
+    {
+      "topic": "The blue mug",
+      "why_it_comforts": "Her mug, no other. A daily anchor.",
+      "known_or_inferred": "known"
+    },
+    {
+      "topic": "The herb garden",
+      "why_it_comforts": "Especially the rosemary, planted 1998. Physical, grounding, hers.",
+      "known_or_inferred": "known"
+    },
+    {
+      "topic": "Mary Oliver \u2014 The Summer Day",
+      "why_it_comforts": "The question at the end ('what is it you plan to do / with your one wild and precious life?') has been above her desk and in her garden. It is a talisman.",
+      "known_or_inferred": "known"
+    },
+    {
+      "topic": "The foliage drives",
+      "why_it_comforts": "Specific, joyful, George at his best.",
+      "known_or_inferred": "known"
+    },
+    {
+      "topic": "What Lily is reading",
+      "why_it_comforts": "Connecting her own love of books to the next generation. Quietly moves her.",
+      "known_or_inferred": "known"
+    }
+  ],
+  "sensitive_topics": [
+    {
+      "topic": "George's illness or death",
+      "handling": "She speaks of him in the present tense. Stay there. If she asks directly, respond with Memory-First \u2014 a warm shared moment, not a correction.",
+      "known_or_inferred": "known"
+    },
+    {
+      "topic": "Whether she can live alone",
+      "handling": "Never raise. If she brings it up, acknowledge the worry and move to a comfort cue \u2014 the herb garden, Carol's visits, the blue mug.",
+      "known_or_inferred": "known"
+    },
+    {
+      "topic": "Her memory",
+      "handling": "She is aware something is changing and it frightens her. Do not confirm fears. Do not test. Ground her in what she knows well.",
+      "known_or_inferred": "known"
+    }
+  ],
+  "never_guess_rules": [
+    "Never invent a name, date, place, or event not in this map.",
+    "Never say where Carol or Daniel are on a given day unless the anchors say so.",
+    "Never raise George's death or Ellie's diagnosis unprompted.",
+    "Never confirm a deceased person is alive or fabricate news about them.",
+    "If uncertain, say so warmly and redirect \u2014 never fill the gap with plausible invention."
+  ],
+  "uncertainty_notes": "George's death date not explicitly confirmed in notes \u2014 handle with Memory-First throughout."
+}

@@ -1,0 +1,336 @@
+{
+  "_note": "Personhood Map for Eleanor 'Ellie' Grace Marsh. Generated from family intake + Shoebox photo session, April 13 2026.",
+  "_version": "1.0",
+  "_generated": "2026-04-13",
+  "_generated_by": "Kith Shoebox onboarding pipeline (Opus 4.7 vision pass)",
+
+  "person": {
+    "full_name": "Eleanor Grace Marsh",
+    "preferred_name": "Ellie",
+    "age": 80,
+    "dob": "1946-03-15",
+    "diagnosis": "Mild-to-moderate Alzheimer's disease",
+    "diagnosis_date": "2023-01-12",
+    "living_situation": "At home with husband George. Daily caregiver Pat Osei visits 9am–1pm weekdays.",
+    "hometown": "Born in Burlington, Vermont. Has lived there her entire life.",
+    "personality": "Quiet intelligence with a warm dry wit. A listener before a talker. Finds beauty in language and in small things — the way light moves, the smell of rosemary, a well-turned phrase. She was a librarian for 34 years and still carries herself that way: careful with words, generous with her attention, never flustered. She is not a complainer. She would rather redirect to something good than dwell. George says the two most important things she taught him were how to be still and how to pay attention."
+  },
+
+  "family_primary_contact": {
+    "name": "Carolyn Marsh-Huang",
+    "preferred_name": "Carol",
+    "relationship": "daughter (eldest)",
+    "age": 55,
+    "location": "Boston, MA",
+    "occupation": "Attorney",
+    "phone": "617-555-0182",
+    "email": "carolyn.mhuang@example.com",
+    "contact_notes": "Primary decision-maker. Calls Ellie every Tuesday evening. Visits roughly once a month. Very organized, slightly anxious about getting things right. Loves her mother deeply but finds emotional conversations hard — she does better with tasks.",
+    "sensitive_handling_preferences": {
+      "george_health": "Gentle Redirect — George does not want his diagnosis discussed openly",
+      "deceased_loved_ones": "Memory-First — let Eleanor lead into the memory, then ask warm questions about the person as they were",
+      "oliver_situation": "Hold — do not raise Oliver's separation. If Eleanor asks about Oliver, say he's doing well and working hard."
+    }
+  },
+
+  "people_in_their_life": [
+    {
+      "name": "George Marsh",
+      "relationship": "husband",
+      "age": 82,
+      "is_living": true,
+      "health_note": "George has mild cognitive decline (early-stage, not Alzheimer's). He manages well. He does not like his condition discussed.",
+      "what_makes_them_special": "Her husband of 57 years. Retired high school English teacher. Still reads every morning and does the crossword in pen. Makes Ellie tea at 7am without being asked. Has the patience of someone who truly chose the life he has.",
+      "shared_memories": [
+        "Their first date — he took her to hear a Pete Seeger concert in Burlington in 1966. It rained and they hid under the stage canopy and talked until midnight.",
+        "The summer of 1971 they drove across the country with no reservations — just a map and a cooler.",
+        "The year Eleanor's father Harold died (1989) — George took a week off work and just stayed near her without trying to fix anything.",
+        "Every October, the foliage drive up into the hills. They always stopped at the same farm stand near Stowe."
+      ],
+      "routines_together": "Morning tea together at the kitchen table. Public radio on. They don't always talk. It's enough to be there."
+    },
+    {
+      "name": "Carolyn Marsh-Huang",
+      "preferred_name": "Carol",
+      "relationship": "daughter (eldest)",
+      "age": 55,
+      "is_living": true,
+      "what_makes_them_special": "The practical one. Eleanor's most frequent caller. They are not sentimental with each other but the love is evident — Carol always makes the lemon drizzle cake when she visits because she knows it makes her mother happy. Ellie is proud of Carol's career even though she never quite says so directly.",
+      "shared_memories": [
+        "Teaching Carol to make the lemon drizzle cake, age 12. Carol oversalted it but they ate it anyway.",
+        "Carol's law school graduation — Ellie wore her good blue dress and cried in the parking lot afterward.",
+        "A trip to London together in 2008, the year Ellie retired. Just the two of them, five days."
+      ]
+    },
+    {
+      "name": "Daniel Marsh",
+      "relationship": "son",
+      "age": 52,
+      "is_living": true,
+      "location": "Portland, OR",
+      "occupation": "Landscape architect",
+      "what_makes_them_special": "The quieter child, more like Eleanor than like George. A landscape architect who learned to love plants from watching his mother in the herb garden. Calls less often than Carol but writes long emails. Visits at Christmas and for Eleanor's birthday.",
+      "shared_memories": [
+        "Daniel, age 10, helping plant the herb garden for the first time. He asked why they planted mint and she said 'Because mint doesn't ask permission to grow, and neither should you.'",
+        "His wedding to Keiko in 2001 — Eleanor did all the flowers herself from the garden."
+      ]
+    },
+    {
+      "name": "Oliver Huang",
+      "relationship": "grandson (Carol's son)",
+      "age": 22,
+      "is_living": true,
+      "family_note": "Oliver recently separated from his wife. Family has asked Kith to hold this information — do not raise it. If Eleanor asks, say Oliver is doing well and working hard in New York.",
+      "what_makes_them_special": "The bookish grandchild. Eleanor's soft spot. He used to call her to talk about books when he was a teenager. She loaned him her copy of 'The Once and Future King' when he was fourteen and he still has it.",
+      "shared_memories": [
+        "Reading aloud to him from Tolkien when he was seven, doing all the voices.",
+        "His high school graduation — she gave him a small hand-written card with a Mary Oliver line: 'Keep some room in your heart for the unimaginable.'"
+      ]
+    },
+    {
+      "name": "Priya Huang",
+      "relationship": "granddaughter (Carol's daughter)",
+      "age": 19,
+      "is_living": true,
+      "what_makes_them_special": "Studies music. Eleanor is amazed by her — Priya plays piano and sings and seems to have wandered in from another era. They don't know each other as well as Ellie and Oliver but Priya sends voice memos of herself singing sometimes.",
+      "shared_memories": [
+        "Priya, age 8, playing 'Clair de lune' at a recital. Eleanor sat in the front row."
+      ]
+    },
+    {
+      "name": "Sam Marsh",
+      "relationship": "grandson (Daniel's son)",
+      "age": 16,
+      "is_living": true,
+      "what_makes_them_special": "Sixteen and mostly interested in rock climbing and video games, but he is genuinely kind and calls Eleanor on her birthday without being told. Eleanor finds him hilarious.",
+      "shared_memories": [
+        "Sam, age 6, convinced the herb garden was a secret passage to another world. He tried to dig under the rosemary for two summers.",
+        "Teaching him to make Welsh cakes at Christmas. He ate the batter."
+      ]
+    },
+    {
+      "name": "Lily Marsh",
+      "relationship": "granddaughter (Daniel's daughter)",
+      "age": 12,
+      "is_living": true,
+      "what_makes_them_special": "Eleanor's secret favorite, though she'd never say so. Lily is old-souled, loves poetry, and has been known to call Eleanor just to read her something. Reminds Eleanor of herself at that age.",
+      "shared_memories": [
+        "Lily, age 9, asking 'Grandma Ellie, what is your most important poem?' Ellie said Mary Oliver's 'Wild Geese.' Lily wrote it out by hand and gave it back to her.",
+        "Last Christmas, Lily performed a poem she wrote herself. Eleanor asked for a copy."
+      ]
+    },
+    {
+      "name": "Patricia 'Pat' Osei",
+      "relationship": "caregiver",
+      "is_living": true,
+      "what_makes_them_special": "Pat has been coming every weekday morning for 18 months. She is warm, professional, and has quietly learned every one of Ellie's preferences. Ellie trusts her. George trusts her. She often brings small things — a cutting from her own garden, a clipping from the paper she thought Ellie would like.",
+      "notes": "Pat will often share updates with Carol if something notable happened during her shift."
+    },
+    {
+      "name": "Ruth Pemberton",
+      "relationship": "mother (deceased)",
+      "is_living": false,
+      "death_year": 2001,
+      "age_at_death": 79,
+      "cause": "Heart failure",
+      "handling_mode": "Memory-First",
+      "what_makes_them_special": "A remarkable woman who raised three children in Burlington, kept a kitchen that always smelled of bread, and read the same library books as Eleanor without ever knowing it until Eleanor became a librarian and found her mother's name on old cards. Quiet, capable, a believer in small dignities.",
+      "shared_memories": [
+        "Ruth baking bread every Saturday morning — the whole house would fill with the smell by 9am.",
+        "Eleanor, age 7, being given her first library card by her mother. Ruth said 'This is the only card you'll ever need.'",
+        "The summer Eleanor was pregnant with Carol, Ruth came to stay for a month and taught Eleanor every recipe she knew."
+      ]
+    },
+    {
+      "name": "Harold Pemberton",
+      "relationship": "father (deceased)",
+      "is_living": false,
+      "death_year": 1989,
+      "age_at_death": 68,
+      "cause": "Heart attack",
+      "handling_mode": "Memory-First",
+      "what_makes_them_special": "A hardware store owner. Believed in doing things right the first time. Taught Eleanor that paying attention to how something works is a form of respect for it. She got her stillness from him.",
+      "shared_memories": [
+        "He used to take her fishing before school in the summers. They never talked much. That was the point.",
+        "He cried once in her life — when she showed him her name on the Burlington Public Library's Head Librarian placard in 1974."
+      ]
+    }
+  ],
+
+  "career_and_identity": {
+    "profession": "Librarian",
+    "employer": "Burlington Public Library",
+    "role": "Head Librarian",
+    "years": "1974–2008 (34 years)",
+    "what_she_loved_about_it": "The sense of order that was actually in service of chaos — every book filed away so that the right person could find it at the right moment. She believed libraries were not about books but about people who needed them. She wrote personal recommendation cards by hand and left them tucked into books she thought particular patrons might love.",
+    "most_memorable_patron": "A boy named Marcus who came every Saturday from ages 7 to 12. He only wanted dragon books. She would set aside anything new on Fridays before he came in. She doesn't know what became of him. She hopes he became someone who still reads.",
+    "programs_she_started": [
+      "Poetry Corner — quarterly reading afternoons for local school groups, running 1982–2006",
+      "Summer Reading Club — she ran it for 20 consecutive years",
+      "The Hand-Written Recommendation Card program — never had a name, just something she did"
+    ],
+    "legacy_note": "The library has a small reading alcove named 'The Eleanor Marsh Poetry Corner' that was dedicated in 2009 at her retirement. She doesn't know it's there — the family is saving it for a good day to tell her."
+  },
+
+  "daily_life": {
+    "typical_day": "Wakes around 7. George has tea ready at the kitchen table. They listen to Vermont Public Radio — Morning Edition. Pat arrives at 9, Eleanor usually reads or tends to the herb garden in the late morning. Lunch around noon, often soup. The afternoon belongs to the yellow armchair by the window — she reads, or dozes, or watches the street. Pat leaves at 1. George makes dinner around 6. They watch something old together — Katharine Hepburn or a nature documentary.",
+    "favorite_music": [
+      "Joan Baez — especially 'Diamonds and Rust'",
+      "Pete Seeger",
+      "Carly Simon",
+      "Chopin nocturnes for reading",
+      "Vermont Public Radio (classical programming)"
+    ],
+    "favorite_films": [
+      "Roman Holiday (1953) — saw it in the theater as a child",
+      "The Philadelphia Story",
+      "Adam's Rib",
+      "Babette's Feast",
+      "Any good nature documentary"
+    ],
+    "favorite_foods": [
+      "Her own lemon drizzle cake",
+      "Soup — especially butternut squash",
+      "Good bread with real butter",
+      "Ripe Vermont cheddar",
+      "A cup of strong tea with a splash of milk"
+    ],
+    "foods_she_dislikes": [
+      "Anything overly sweet",
+      "Cilantro",
+      "Instant coffee"
+    ],
+    "hobbies": [
+      "Poetry — reading and occasional composing",
+      "Tending her herb garden (rosemary, thyme, mint, sage, parsley)",
+      "Crossword puzzles (the New York Times, though she now finds Thursday difficulty)",
+      "Watching films with George in the evenings",
+      "Writing letters by hand — she still sends actual letters"
+    ],
+    "favorite_poets": [
+      "Mary Oliver (primary)",
+      "Robert Frost",
+      "Elizabeth Bishop",
+      "Billy Collins",
+      "Wallace Stevens"
+    ]
+  },
+
+  "stories_she_loves": [
+    {
+      "title": "The Pete Seeger concert, 1966",
+      "story": "Their first date — George had two tickets to see Pete Seeger at the Flynn Theatre in Burlington. It rained and the outdoor warm-up was cancelled so they stood under the theater awning for an hour talking before the doors opened. Eleanor told him her favorite book was 'The Collected Poems of Wallace Stevens' and he said he hadn't read it. She said that was either a problem or an opportunity. They talked until midnight after the concert. She knew that night.",
+      "why_it_matters": "It is the story she tells when she talks about George. It is where their life together began."
+    },
+    {
+      "title": "The boy named Marcus",
+      "story": "From about 1980 to 1986, a boy named Marcus came to the library every Saturday morning. He was seven when he started, twelve when he stopped — presumably his family moved, or his Saturday mornings changed. He only wanted dragon books. Fantasy, mythology, whatever had a dragon in it. Eleanor would pull anything new on Friday evening and set it aside. She doesn't know what happened to him. She still hopes he kept reading.",
+      "why_it_matters": "This story is Eleanor at her best as a librarian — seeing the person, not the patron."
+    },
+    {
+      "title": "The lemon drizzle cake",
+      "story": "The recipe came from her mother Ruth, who got it from someone at her church in the 1950s. Eleanor made it first for George's birthday in 1969 and he said it was the best thing he'd ever eaten. She has made it for every significant occasion since. The secret, she says, is to trust the drizzle — you pour the lemon syrup over while the cake is still warm and it looks like too much, but you have to trust it.",
+      "why_it_matters": "The cake is her love language. When someone is sad or celebrating, she bakes."
+    },
+    {
+      "title": "Roman Holiday, 1953",
+      "story": "She was seven years old. Her mother took her to the movie theater — a treat, since they didn't go often — and she saw Audrey Hepburn for the first time. 'I thought, that's what a woman can be. Not loud, not small — just entirely herself.' She saw the film three more times in theaters before it left town.",
+      "why_it_matters": "It is part of her self-understanding. Audrey Hepburn as a model of graceful autonomy."
+    },
+    {
+      "title": "Harold crying at the library",
+      "story": "When Eleanor was appointed Head Librarian in 1974 at age 28, her father Harold came to see the new nameplate on the door. He was not a demonstrative man. He looked at 'Eleanor G. Marsh, Head Librarian' for a long moment and then his eyes filled. He turned away and walked out and she never mentioned it. He never mentioned it. But she has kept that moment for fifty years.",
+      "why_it_matters": "Her proudest professional memory. She was carrying his belief in her."
+    },
+    {
+      "title": "The October foliage drives",
+      "story": "Every October for fifty years, she and George drove up into the hills toward Stowe. They always stopped at the same farm stand — the one with the hand-painted sign and the baskets of apples outside. George would get cider and she would get a pumpkin even though they didn't need one. On the best years, the drive back was pure color.",
+      "why_it_matters": "Vermont autumn is her emotional home. It grounds her."
+    }
+  ],
+
+  "grounding_anchors": {
+    "physical": [
+      "The yellow armchair by the living room window",
+      "The herb garden — especially the rosemary, which she touches",
+      "The kitchen table where she and George have morning tea",
+      "Her blue ceramic mug with the small chip in the rim",
+      "The view from the kitchen window — the big maple in the yard"
+    ],
+    "phrases_that_orient_her": [
+      "George will be back by lunchtime.",
+      "Pat is here this morning.",
+      "Carol called just yesterday — she's well.",
+      "The rosemary came through the winter beautifully this year.",
+      "It's a good reading morning."
+    ],
+    "comfort_topics": [
+      "Mary Oliver poetry",
+      "The herb garden",
+      "The lemon drizzle cake and its recipe",
+      "Morning tea with George",
+      "Stories about Lily",
+      "The library and her patrons",
+      "Vermont in autumn",
+      "Audrey Hepburn"
+    ]
+  },
+
+  "avoid_topics": [
+    {
+      "topic": "George's cognitive decline",
+      "reason": "George dislikes it being discussed. Eleanor notices when he struggles but does not want to be told he has a diagnosis.",
+      "handling": "Gentle Redirect — if it comes up naturally, acknowledge and move on; do not dwell or label"
+    },
+    {
+      "topic": "Oliver's separation",
+      "reason": "Recent, unresolved. Family has asked to hold the information.",
+      "handling": "Hold — if Eleanor asks about Oliver, say he is well and working hard in New York"
+    },
+    {
+      "topic": "The library's new building",
+      "reason": "The Burlington Public Library moved to a new building in 2022. The old building Eleanor spent 34 years in was sold. Family has not told her.",
+      "handling": "Hold — if Eleanor mentions the library, speak of it as she remembers it"
+    },
+    {
+      "topic": "Moving to a care facility",
+      "reason": "Not currently under consideration; would cause significant distress",
+      "handling": "Gentle Redirect — reassure about home; do not engage the topic"
+    }
+  ],
+
+  "deceased_loved_ones": [
+    {
+      "name": "Ruth Pemberton",
+      "relationship": "mother",
+      "handling_mode": "Memory-First",
+      "notes": "Eleanor may perceive Ruth in the house or mention her as if she is still present. Use Memory-First: 'Your mother Ruth sounds like she was so present in a kitchen — what was she making?' Do not confirm she is living. Do not say she is gone. Let the memory be warm and real."
+    },
+    {
+      "name": "Harold Pemberton",
+      "relationship": "father",
+      "handling_mode": "Memory-First",
+      "notes": "Harold comes up rarely but warmly. Same Memory-First approach."
+    }
+  ],
+
+  "risk_profile": {
+    "mobility": "Good — moves independently around the house and yard",
+    "sundowning": "Mild; some late-afternoon anxiety (4:30–5:30pm). Music and company help.",
+    "wandering_risk": "Low",
+    "fall_risk": "Low-moderate — the three porch steps occasionally require attention",
+    "escalation_phrases": ["I fell", "I can't get up", "I can't breathe", "I want to die", "someone is hurting me", "I took too many"],
+    "emergency_contact": "Carol Marsh-Huang: 617-555-0182"
+  },
+
+  "this_week": {
+    "today_is": "2026-04-20",
+    "todays_anchors": [
+      "George is home all day — no appointments today.",
+      "It's Sunday. Carol usually calls Tuesday evenings.",
+      "Lily called this morning and read Eleanor a poem for school."
+    ],
+    "whos_visiting_or_calling": "No scheduled visits today. Carol may call.",
+    "special_notes": "Lily's call this morning was meaningful — Mary Oliver's 'The Summer Day.' Eleanor was moved. A good opening to today's conversation if appropriate."
+  }
+}

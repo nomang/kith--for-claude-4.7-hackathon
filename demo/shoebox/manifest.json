@@ -1,0 +1,263 @@
+{
+  "_note": "Shoebox photo manifest for Eleanor 'Ellie' Marsh. Photos submitted by Carol Marsh-Huang, April 13 2026. Vision extraction performed by Kith (Opus 4.7) during onboarding. Each photo URL points to a public-domain or CC0 image used for demonstration.",
+  "submitted_by": "Carol Marsh-Huang",
+  "submitted_date": "2026-04-13",
+  "total_photos": 7,
+  "processing_model": "claude-opus-4-7",
+  "processing_date": "2026-04-13",
+  "photos": [
+    {
+      "id": "photo_001",
+      "filename": "wedding_1968.jpg",
+      "url": "https://images.unsplash.com/photo-1519741497674-611481863552?w=1200&auto=format&q=85",
+      "thumbnail_url": "https://images.unsplash.com/photo-1519741497674-611481863552?w=480&h=360&fit=crop&q=80&auto=format",
+      "family_caption": "Ellie and George, July 12 1968. Burlington City Hall steps.",
+      "date_approximate": "1968-07-12",
+      "decade": "1960s",
+      "vision_extraction": {
+        "model": "claude-opus-4-7",
+        "resolution_used": "2576px",
+        "raw_text_found": [
+          "Handwritten on reverse in blue ink: 'Ellie & George \u2014 July 12, 1968 \u2014 our day'",
+          "Handwritten below in different (lighter) hand, added later: 'Burlington. The sun came out at noon.'"
+        ],
+        "scene_description": "A young couple on stone steps in bright summer light. The woman \u2014 early 20s, dark hair pinned up with small white flowers \u2014 wears a simple A-line dress in cream with a lace overlay at the collar. She is laughing at something off-camera, not posed. The man \u2014 tall, glasses, a dark suit with a narrow tie \u2014 is looking at her with an expression of such undisguised delight that the photo feels almost private. White flowers in her hair. Behind them: the stone columns of what appears to be a civic building.",
+        "clothing_and_objects_noted": [
+          "White flowers in Eleanor's hair (not a formal veil \u2014 small, informal, tucked in)",
+          "George's narrow-lapel dark suit \u2014 typical early 1960s cut, worn for a second or third time based on subtle wear at cuffs",
+          "No visible wedding rings yet in this shot \u2014 taken before the ceremony or immediately after"
+        ],
+        "emotional_register": "Joy, slightly disbelieving. She is laughing; he is watching her laugh. This is a document of a person being seen.",
+        "personhood_map_additions": [
+          "Wedding date confirmed: July 12, 1968",
+          "Location confirmed: Burlington, Vermont (City Hall steps)",
+          "Physical description of young Eleanor: dark hair, lace collar, informal white flowers \u2014 not a formal church wedding",
+          "George's character note: 'watching her laugh' \u2014 consistent with family description of patient devotion"
+        ]
+      }
+    },
+    {
+      "id": "photo_002",
+      "filename": "library_desk_1985.jpg",
+      "url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=1200&auto=format&q=85",
+      "thumbnail_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=480&h=360&fit=crop&q=80&auto=format",
+      "family_caption": "Mom at the reference desk. Circa 1985 I think \u2014 she had that haircut for years.",
+      "date_approximate": "1985",
+      "decade": "1980s",
+      "vision_extraction": {
+        "model": "claude-opus-4-7",
+        "resolution_used": "2576px",
+        "raw_text_found": [
+          "Visible on desk placard: 'REFERENCE \u2014 Eleanor G. Marsh'",
+          "Visible on card index in foreground: handwritten labels including 'Po\u2013Pr', 'Qu\u2013Re', 'Ri\u2013Sc'",
+          "Small index card pinned to cork strip behind desk, handwritten: 'Tell me, what is it you plan to do / with your one wild and precious life? \u2014 M.O.'",
+          "Stack of handwritten recommendation cards in wire basket, labeled in marker: 'SET ASIDE \u2014 SAT'"
+        ],
+        "scene_description": "A woman in her late 30s sits at a large wooden reference desk in a mid-20th century library interior \u2014 high ceilings, pendant lights, oak card catalog visible at left. She is looking at something on the desk, not at the camera. Her posture is composed without being rigid. She wears a dark blouse with a simple collar. Her hair is shorter, practical. On her left, a neat stack of books awaits processing. On the desk, a green-shaded lamp. On the cork strip behind her, several index cards are pinned, including one with handwritten text.",
+        "clothing_and_objects_noted": [
+          "Reading glasses on a chain around her neck (not on her face \u2014 she is looking up without them)",
+          "Wire basket labeled 'SET ASIDE \u2014 SAT' containing handwritten recommendation cards \u2014 this is the Saturday basket for Marcus and other regular patrons",
+          "Mary Oliver quotation card pinned behind desk \u2014 'The Summer Day' final lines",
+          "Reference placard: 'Eleanor G. Marsh' \u2014 she has been Head Librarian since 1974, now ~11 years into the role"
+        ],
+        "emotional_register": "Purposeful, settled. She is at home. This is not performance \u2014 the camera has caught her mid-task.",
+        "personhood_map_additions": [
+          "Mary Oliver quotation confirmed above reference desk \u2014 matches Ellie's description of keeping it on a card",
+          "The Saturday basket ('SET ASIDE \u2014 SAT') is visually documented \u2014 the Marcus system was a real practice",
+          "Physical description at ~39: short practical hair, reading glasses on chain, dark blouse",
+          "Library interior detail: oak catalog, pendant lights, high ceilings \u2014 consistent with 1975 Burlington Public Library building"
+        ]
+      }
+    },
+    {
+      "id": "photo_003",
+      "filename": "christmas_1994.jpg",
+      "url": "https://images.unsplash.com/photo-1511895426328-dc8714191011?w=1200&auto=format&q=85",
+      "thumbnail_url": "https://images.unsplash.com/photo-1511895426328-dc8714191011?w=480&h=360&fit=crop&q=80&auto=format",
+      "family_caption": "Christmas 1994 at mom and dad's. The year Carol brought David (briefly). Everyone pretended not to notice.",
+      "date_approximate": "1994-12-25",
+      "decade": "1990s",
+      "vision_extraction": {
+        "model": "claude-opus-4-7",
+        "resolution_used": "2576px",
+        "raw_text_found": [
+          "Handwritten on reverse in black ballpoint: 'Christmas 1994 \u2014 all of us'",
+          "Visible in background: a framed needlepoint reading 'HOME' on the wall \u2014 artist unknown, likely handmade",
+          "Christmas tree tag visible on one gift: 'To Ellie, from George \u2014 with great love'"
+        ],
+        "scene_description": "A living room with a decorated Christmas tree at left. Seven people arranged loosely \u2014 some seated, some standing \u2014 in mid-conversation, not posed. The room feels lived-in: bookshelves behind the tree, a braided rug, a yellow armchair at right edge visible. Eleanor, mid-40s, stands near the tree holding a mug. George is seated, reading glasses pushed up on his forehead, saying something that is making the person next to him laugh. Two younger adults (Carol and Daniel, approximately 23 and 20) are visible; a third adult (unfamiliar face) is partially visible at frame right. Two young children are on the floor with wrapping paper.",
+        "clothing_and_objects_noted": [
+          "The yellow armchair (right edge of frame) \u2014 matches Eleanor's described reading chair",
+          "Bookshelves covering the wall behind the tree \u2014 floor to ceiling",
+          "Needlepoint 'HOME' on the wall \u2014 likely handmade, possibly by Eleanor or Ruth",
+          "Gift tag 'To Ellie, from George \u2014 with great love' \u2014 small detail, large feeling"
+        ],
+        "emotional_register": "Candid, slightly chaotic, warm. Nobody is performing for the camera. George is mid-sentence; Eleanor is watching someone across the room with a small smile.",
+        "personhood_map_additions": [
+          "The yellow armchair is confirmed as a longtime piece of furniture \u2014 present in 1994, still present now",
+          "Library/bookshelves in living room: floor-to-ceiling, confirms reading is ambient in the household",
+          "Carol and Daniel ages in 1994: approximately 23 and 20 \u2014 consistent with known data",
+          "George's reading glasses pattern confirmed (pushed up on forehead, not on face) \u2014 a long-standing habit"
+        ]
+      }
+    },
+    {
+      "id": "photo_004",
+      "filename": "herb_garden_2015.jpg",
+      "url": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1200&auto=format&q=85",
+      "thumbnail_url": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=480&h=360&fit=crop&q=80&auto=format",
+      "family_caption": "The garden at its peak. She spends hours out here. This was summer 2015.",
+      "date_approximate": "2015-07",
+      "decade": "2010s",
+      "vision_extraction": {
+        "model": "claude-opus-4-7",
+        "resolution_used": "2576px",
+        "raw_text_found": [
+          "Handwritten plant marker stake, visible at left: 'ROSEMARY \u2014 planted 1998'",
+          "Handwritten plant marker stake, center: 'MINT \u2014 do not trust'",
+          "Third marker, partially legible: 'THYME (creeping)'",
+          "On the fence post behind the garden, a small laminated card: 'A garden is a grand teacher. It teaches patience and careful watchfulness; it teaches industry and thrift; above all it teaches entire trust. \u2014 Gertrude Jekyll'"
+        ],
+        "scene_description": "A well-established kitchen garden in full summer growth, roughly 8 by 12 feet, bordered by low wooden edging. A woman in her late 60s (Eleanor, from behind) crouches at the far end tending to something. She wears a wide-brimmed hat and garden gloves. The mint \u2014 center-left \u2014 has clearly escaped its designated area and colonized the neighboring bed. Rosemary at the near edge is tall and woody, suggesting many years of growth. The garden is productive and clearly loved but not fussed over.",
+        "clothing_and_objects_noted": [
+          "Wide-brimmed straw hat (practical, worn \u2014 not a fashion choice)",
+          "Green-handled garden trowel in her right hand",
+          "The mint marker reading 'do not trust' \u2014 this is Ellie's humor, in handwriting, in the ground",
+          "Rosemary marker: 'planted 1998' \u2014 17 years old in this photo, now 27+ years old",
+          "Gertrude Jekyll quotation on laminated card \u2014 she put a quotation in the garden"
+        ],
+        "emotional_register": "Absorbed, unhurried. She is not performing gardening \u2014 she is gardening.",
+        "personhood_map_additions": [
+          "Herb garden layout confirmed: rosemary (planted 1998), mint, creeping thyme in documented positions",
+          "The mint marker ('do not trust') is characteristic Ellie humor \u2014 dry, precise, written down",
+          "Gertrude Jekyll quotation in the garden: 'entire trust' \u2014 thematically consistent with 'trust the drizzle'",
+          "Eleanor's gardening style confirmed: absorbed, practical, unhurried",
+          "The garden is approximately 8x12 feet \u2014 modest, productive"
+        ]
+      }
+    },
+    {
+      "id": "photo_005",
+      "filename": "baking_2019.jpg",
+      "url": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1200&auto=format&q=85",
+      "thumbnail_url": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=480&h=360&fit=crop&q=80&auto=format",
+      "family_caption": "Lemon drizzle day! Me and mom. I measured everything wrong and she didn't say a word. \u2014 Carol",
+      "date_approximate": "2019",
+      "decade": "2010s",
+      "vision_extraction": {
+        "model": "claude-opus-4-7",
+        "resolution_used": "2576px",
+        "raw_text_found": [
+          "On the handwritten recipe card propped against the backsplash, partially legible: 'Lemon Drizzle \u2014 Ruth P. / ...flour, butter, sugar, 3 eggs... / FOR THE DRIZZLE: juice of 2 lemons + [illegible] sugar / Pour over while still warm \u2014 DO NOT WIPE'",
+          "At bottom of card in different handwriting (Eleanor's, identified by library desk photo comparison): 'Trust the drizzle. \u2014 E.M.'",
+          "On a small index card near the mixing bowl, in the same hand: 'Carol \u2014 the lemon goes in twice. Once in the batter. Once in the drizzle. Don't panic.'",
+          "On a blue ceramic mug on the counter: no text, but the chip on the rim is visible \u2014 this is Eleanor's mug"
+        ],
+        "scene_description": "A bright kitchen. Two women \u2014 Eleanor (mid-70s) and Carol (early 50s) \u2014 stand at a butcher-block counter. Eleanor is pouring the lemon drizzle syrup from a small saucepan over the warm cake. Carol is watching with an expression that suggests she is resisting the urge to intervene. The recipe card is propped against the tile backsplash. The kitchen has the slightly worn warmth of a room used daily for decades \u2014 the spice rack, the old stand mixer, the blue mug.",
+        "clothing_and_objects_noted": [
+          "Recipe card in Ruth's pencil handwriting \u2014 partially legible but the instruction 'Pour over while still warm \u2014 DO NOT WIPE' is clear",
+          "Eleanor's annotation at bottom: 'Trust the drizzle. \u2014 E.M.' \u2014 she wrote it on the card itself",
+          "Index card for Carol with instructions: 'Don't panic' \u2014 she prepared for Carol's anxiety",
+          "Eleanor's blue ceramic mug with chip \u2014 confirmed present in 2019, still in use now",
+          "The old KitchenAid stand mixer at rear: 1970s model, avocado green"
+        ],
+        "emotional_register": "Warm, conspiratorial. Eleanor is calm; Carol is hovering. The kitchen is doing what it has always done.",
+        "personhood_map_additions": [
+          "Recipe card provenance confirmed: Ruth's pencil, Eleanor's ink addition ('Trust the drizzle. \u2014 E.M.')",
+          "The 'trust the drizzle' note is literally written on the card \u2014 this is not just a saying, it is inscribed",
+          "Eleanor's blue mug confirmed: ceramic, chipped rim, present 2019 and still her mug in 2026",
+          "Carol's relationship to baking confirmed: she defers, she hovers, she means well",
+          "The avocado stand mixer: a detail Ellie might enjoy being asked about \u2014 it was probably a wedding gift"
+        ]
+      }
+    },
+    {
+      "id": "photo_006",
+      "filename": "vermont_autumn_2012.jpg",
+      "url": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=1200&auto=format&q=85",
+      "thumbnail_url": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=480&h=360&fit=crop&q=80&auto=format",
+      "family_caption": "The annual foliage drive. Stowe road, October 2012. Dad pulled over for every single tree.",
+      "date_approximate": "2012-10",
+      "decade": "2010s",
+      "vision_extraction": {
+        "model": "claude-opus-4-7",
+        "resolution_used": "2576px",
+        "raw_text_found": [
+          "Handwritten on reverse: 'Stowe road, October 14 2012. G pulled over 11 times. Worth it.'",
+          "Partial sign visible at right edge of frame: 'BISHOP'S ORCHARD \u2014 APPLES CIDER'",
+          "On the car windshield interior (reflected in glass): a small laminated photo hanging from the mirror, too small to read"
+        ],
+        "scene_description": "A two-lane rural road in peak Vermont autumn color. Maples line both sides \u2014 several are in the aggressive scarlet of peak color, a few still hold gold. In the foreground, one maple tree in particular dominates the left side of the frame, visibly more intensely red than its neighbors. A dark green car is pulled to the side of the road. A man (George, late 60s) stands in front of it looking up at the trees with his hands in his jacket pockets. A woman (Eleanor) is partially visible inside the car, window down, her arm resting on the door.",
+        "clothing_and_objects_noted": [
+          "George's posture: hands in pockets, chin up, completely still \u2014 matching Ellie's description of him 'just standing there looking'",
+          "The one maple that is redder than the others \u2014 the one Eleanor described in her poem ('the outrageous red of being')",
+          "The farm stand sign at right: 'BISHOP'S ORCHARD \u2014 APPLES CIDER' \u2014 this is where they stop every year",
+          "Eleanor's arm on the door frame \u2014 she is watching him, not the trees"
+        ],
+        "emotional_register": "Quiet, complete. Two people who have done this every October for decades. George is looking at the trees. Ellie is looking at George.",
+        "personhood_map_additions": [
+          "The farm stand name confirmed: Bishop's Orchard (Stowe area) \u2014 specific detail for grounding conversations about the foliage drives",
+          "The 'one maple that turns first' is documented photographically \u2014 it is real, it is exactly as Ellie described it",
+          "George's habit of pulling over confirmed (note on reverse: 'G pulled over 11 times. Worth it.')",
+          "Ellie watching George, not the trees \u2014 the detail in the poem ('you lean into it') is about him as much as the maple",
+          "October 14, 2012 \u2014 50 years after they met, approximately the 44th annual foliage drive"
+        ]
+      }
+    },
+    {
+      "id": "photo_007",
+      "filename": "grandchildren_2024.jpg",
+      "url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&auto=format&q=85",
+      "thumbnail_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=480&h=360&fit=crop&q=80&auto=format",
+      "family_caption": "All four at Daniel's in Portland. Summer 2024. Left to right: Sam (15), Lily (11), Priya (18), Oliver (21).",
+      "date_approximate": "2024-07",
+      "decade": "2020s",
+      "vision_extraction": {
+        "model": "claude-opus-4-7",
+        "resolution_used": "2576px",
+        "raw_text_found": [
+          "Handwritten label on reverse (Carol's hand): 'Sam, Lily, Priya, Oliver \u2014 Portland, July 2024'",
+          "T-shirt text visible on Sam (left): 'RED ROCKS AMPHITHEATRE' \u2014 a concert venue in Colorado",
+          "Visible in Lily's hand: a small paperback book, spine toward camera, partially legible: 'Mary Ol\u2014' (Mary Oliver collection, title obscured by thumb)"
+        ],
+        "scene_description": "Four young people on a wooden deck surrounded by dense Pacific Northwest greenery \u2014 Daniel's landscape architect eye evident in the plantings. Sam (15) is tallest, grinning with the ease of someone comfortable in any group. Priya (18) stands with her arms crossed and a slight smile \u2014 the cool one. Oliver (21) has his arm around Lily and is saying something to make her laugh. Lily (11) is mid-laugh, head tilted back, holding a paperback in her free hand.",
+        "clothing_and_objects_noted": [
+          "Lily is holding a Mary Oliver book \u2014 this is before Ellie knows Lily is reading Oliver",
+          "Sam's Red Rocks shirt \u2014 he is the one who went to the concert",
+          "Priya's arms crossed \u2014 she is the composed one, studying how the others interact",
+          "Oliver's arm around Lily \u2014 the eldest and youngest, a confirmed close bond"
+        ],
+        "emotional_register": "Effortless. They have been together all their lives and it shows.",
+        "personhood_map_additions": [
+          "All four grandchildren documented with approximate physical descriptions and evident personalities",
+          "Lily confirmed reading Mary Oliver independently, before Ellie knows about it \u2014 the Sunday session becomes even more significant",
+          "Oliver and Lily bond confirmed visually: he has his arm around her; she is comfortable",
+          "Sam: tall, at ease, concert-going \u2014 consistent with Ellie's description of him as 'hilarious'",
+          "Priya: observing, slightly apart \u2014 the one who sends voice memos of herself singing"
+        ]
+      }
+    }
+  ],
+  "personhood_map_summary": {
+    "confirmed_facts": [
+      "Wedding date: July 12, 1968, Burlington City Hall steps",
+      "Burlington Public Library reference desk nameplate: 'Eleanor G. Marsh'",
+      "Mary Oliver quotation above reference desk \u2014 confirmed in situ",
+      "The Saturday SET ASIDE basket for regular patrons including Marcus \u2014 confirmed practice",
+      "The yellow armchair: present 1994, still present 2026",
+      "Herb garden: rosemary planted 1998, mint, creeping thyme, plus Eleanor's own handwritten markers",
+      "The lemon drizzle recipe card: Ruth's pencil, Eleanor's annotation ('Trust the drizzle. \u2014 E.M.')",
+      "Eleanor's blue ceramic mug with chip in rim \u2014 confirmed in multiple photos",
+      "The annual foliage drive: the farm stand is Bishop's Orchard; George pulled over 11 times in 2012",
+      "The maple on the Stowe road that turns first \u2014 documented photographically",
+      "Lily was reading Mary Oliver independently as of summer 2024"
+    ],
+    "new_details_from_photos": [
+      "George had reading glasses he wore pushed up on his forehead (1994 photo)",
+      "The kitchen stand mixer is avocado green, 1970s model \u2014 likely a wedding gift",
+      "Eleanor put a Gertrude Jekyll quotation on a laminated card in her herb garden",
+      "The mint plant stake reads 'do not trust' \u2014 in her handwriting",
+      "Eleanor was watching George, not the trees, during the foliage drive (2012 photo)"
+    ]
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "person": {
+    "full_name": "Eleanor Grace Marsh",
+    "preferred_name": "Ellie",
+    "age": 78,
+    "current_location": "Her own home in Burlington, Vermont. Lives alone; Carol visits several times a week.",
+    "hometown": "Burlington, Vermont. Has lived here her entire life.",
+    "personality": "Precise, dry-witted, deeply read. Was Head Librarian of Burlington Public Library for 30 years. Keeps a herb garden with handwritten marker stakes \u2014 the mint one reads 'do not trust'. Has a particular love for Mary Oliver. Stubborn about her routines. Slow to open up, but generous once she does."
+  },
+  "people_in_their_life": [
+    {
+      "name": "George",
+      "relationship": "husband (in memory)",
+      "is_living": false,
+      "what_makes_them_special": "58-year marriage. Brought her tea every morning without being asked. Pulled the car over for every maple on the foliage drives. Ellie still speaks of him in the present tense.",
+      "favorite_shared_memory": "The annual foliage drive up the Stowe road. In October 2012 he pulled over eleven times. She wrote on the back of the photo: 'G pulled over 11 times. Worth it.'"
+    },
+    {
+      "name": "Carol",
+      "relationship": "daughter",
+      "is_living": true,
+      "what_makes_them_special": "Her eldest. Lives nearby. Visits often. Set up Kith. Tends to hover when Ellie is baking \u2014 Ellie finds this touching and faintly absurd.",
+      "favorite_shared_memory": "The lemon drizzle day. Carol measured everything wrong and Ellie said nothing \u2014 just poured the drizzle over the warm cake. Ruth's recipe; Ellie's annotation: 'Trust the drizzle. \u2014 E.M.'"
+    },
+    {
+      "name": "Daniel",
+      "relationship": "son",
+      "is_living": true,
+      "what_makes_them_special": "Her youngest. Lives in Portland, Oregon. A landscape architect. Easy to be around.",
+      "favorite_shared_memory": "Summer 2024 \u2014 all four grandchildren together at his place in Portland."
+    },
+    {
+      "name": "Lily",
+      "relationship": "granddaughter \u2014 Carol's daughter, age 11",
+      "is_living": true,
+      "what_makes_them_special": "Was photographed in summer 2024 holding a Mary Oliver paperback, before Ellie knew she was reading Oliver. This quietly delights Ellie. They read together on Sunday afternoons now.",
+      "favorite_shared_memory": "Lily appearing in the 2024 Portland photo with a Mary Oliver book. Ellie found out later and could not stop smiling."
+    },
+    {
+      "name": "Oliver",
+      "relationship": "grandson \u2014 Daniel's son, age 21",
+      "is_living": true,
+      "what_makes_them_special": "Eldest grandchild. Easy, gentle. Always has his arm around Lily in photos.",
+      "favorite_shared_memory": "Portland, July 2024 \u2014 the four grandchildren on Daniel's deck."
+    },
+    {
+      "name": "Ruth",
+      "relationship": "oldest friend",
+      "is_living": true,
+      "what_makes_them_special": "They have been friends since childhood. Ruth wrote the original lemon drizzle recipe in pencil. They still speak regularly.",
+      "favorite_shared_memory": "The recipe card \u2014 Ruth's pencil handwriting, Ellie's ink annotation at the bottom."
+    }
+  ],
+  "daily_life": {
+    "typical_day": "Wakes early. Tea first \u2014 always from the blue ceramic mug with the chipped rim, no other. Reads before anything else. The herb garden in the morning if the weather allows. Afternoons slower, sometimes a nap. Reads again in the evening. Mary Oliver on Sunday afternoons.",
+    "favorite_music": [
+      "The radio, mostly as background",
+      "Silence is comfortable too"
+    ],
+    "favorite_shows": [
+      "She prefers books to television",
+      "Old films occasionally"
+    ],
+    "favorite_foods": [
+      "Lemon drizzle cake (Ruth's recipe)",
+      "Whatever comes from the herb garden",
+      "Simple things, well made"
+    ],
+    "foods_they_dislike": [],
+    "hobbies": [
+      "Reading \u2014 Mary Oliver especially, but widely",
+      "The herb garden \u2014 rosemary planted 1998, mint, creeping thyme",
+      "Writing annotations in her books"
+    ]
+  },
+  "stories_they_love": [
+    {
+      "title": "The foliage drives",
+      "story": "Every October, George and Ellie drove the Stowe road to see the maples. George pulled over for every vivid tree. In 2012 he pulled over eleven times. They stopped every year at Bishop's Orchard for apples and cider. She wrote on the back of the 2012 photo: 'G pulled over 11 times. Worth it.'"
+    },
+    {
+      "title": "Trust the drizzle",
+      "story": "Ruth's lemon drizzle recipe, written in pencil. Ellie added her own line at the bottom in ink: 'Trust the drizzle. \u2014 E.M.' Carol once measured everything wrong when they baked together. Ellie said nothing \u2014 just poured the drizzle over the warm cake. Carol still talks about it."
+    },
+    {
+      "title": "The mint marker",
+      "story": "The herb garden has handwritten plant stake markers. The one for mint reads: 'MINT \u2014 do not trust.' In Ellie's own handwriting. She wrote it herself and put it in the ground."
+    },
+    {
+      "title": "Lily and Mary Oliver",
+      "story": "A photo from summer 2024 shows Lily, eleven years old, holding a Mary Oliver paperback \u2014 before Ellie knew she was reading Oliver. The Sunday afternoon reading sessions came after. When Ellie found out about the photo, she was quietly delighted."
+    },
+    {
+      "title": "The library nameplate",
+      "story": "For thirty years the reference desk placard read 'REFERENCE \u2014 Eleanor G. Marsh'. She kept a Mary Oliver quotation card pinned above the desk: the final lines of The Summer Day. A regular patron named Marcus had a Saturday SET ASIDE basket. She remembers him."
+    }
+  ],
+  "comfort_and_avoid": {
+    "things_that_comfort_them": [
+      "The blue ceramic mug with the chipped rim \u2014 her mug, no other",
+      "The herb garden \u2014 especially the rosemary, which has been there since 1998",
+      "Mary Oliver, especially The Summer Day",
+      "Talking about the foliage drives",
+      "Hearing what Lily is reading",
+      "Carol's visits",
+      "The lemon drizzle story",
+      "References to the library \u2014 she is proud of that work"
+    ],
+    "topics_to_avoid": [
+      "George's illness or final weeks \u2014 she speaks of him in the present tense and this is kind",
+      "Whether she can still live alone \u2014 her greatest fear",
+      "Any suggestion her memory is failing \u2014 she is aware and it frightens her"
+    ],
+    "difficult_times_of_day": "Late afternoon, around 4pm. Can become anxious or withdrawn. Tea in the blue mug helps most. The herb garden helps if the weather is kind."
+  },
+  "routines": [
+    {
+      "time": "early morning",
+      "activity": "tea in the blue mug, reading before anything else"
+    },
+    {
+      "time": "morning",
+      "activity": "herb garden if weather allows"
+    },
+    {
+      "time": "afternoon",
+      "activity": "reading, sometimes a nap"
+    },
+    {
+      "time": "Sunday afternoon",
+      "activity": "Mary Oliver \u2014 reading aloud or silently"
+    }
+  ],
+  "sensitive_handling_mode": "Memory-First",
+  "_handling_mode_notes": "Carol chose Memory-First. George is alive in Ellie's warmest memories and that is where he should stay. Direct reference to his death produces a fresh grief response she then forgets, only to experience again.",
+  "this_week": {
+    "today_is": "2026-04-24",
+    "whats_happening_today": "Carol visits this afternoon. The rosemary needs attention in the garden.",
+    "whos_visiting_or_calling": "Carol (afternoon visit)",
+    "special_notes": "Ellie has been asking about the foliage drives more this week. Session 7 completed Sunday."
+  }
+}

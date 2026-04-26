@@ -1,0 +1,387 @@
+<\!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kith Weekly Letter — Eleanor Marsh — Week of April 14–20, 2026</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500&display=swap');
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: #f7f4ef;
+    color: #2c2720;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 1.75;
+    min-height: 100vh;
+    padding: 48px 20px 80px;
+  }
+
+  .letter-wrapper {
+    max-width: 680px;
+    margin: 0 auto;
+    background: #fffdf9;
+    border: 1px solid #e8e0d4;
+    border-radius: 4px;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.06), 0 8px 40px rgba(0,0,0,0.03);
+    overflow: hidden;
+  }
+
+  /* Header band */
+  .letter-header {
+    background: #2c2720;
+    color: #f7f4ef;
+    padding: 36px 48px 32px;
+  }
+
+  .kith-wordmark {
+    font-family: 'Lora', serif;
+    font-size: 13px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #b8a898;
+    margin-bottom: 20px;
+  }
+
+  .letter-header h1 {
+    font-family: 'Lora', serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #fffdf9;
+    line-height: 1.35;
+    margin-bottom: 8px;
+  }
+
+  .letter-meta {
+    font-size: 13px;
+    color: #8a7d72;
+    margin-top: 4px;
+  }
+
+  .letter-meta span { margin-right: 16px; }
+
+  /* Synthesis note */
+  .synthesis-note {
+    background: #f0ece5;
+    border-left: 3px solid #b8a898;
+    padding: 12px 48px 12px 44px;
+    font-size: 12px;
+    color: #6b5e53;
+    font-style: italic;
+    letter-spacing: 0.01em;
+  }
+
+  /* Body */
+  .letter-body {
+    padding: 48px;
+  }
+
+  .salutation {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    color: #4a3f36;
+    margin-bottom: 28px;
+  }
+
+  p {
+    margin-bottom: 20px;
+    color: #2c2720;
+    font-weight: 300;
+    font-size: 16px;
+  }
+
+  p:last-of-type { margin-bottom: 0; }
+
+  .letter-pull {
+    margin: 36px 0;
+    padding: 24px 32px;
+    background: #f7f4ef;
+    border-left: 3px solid #c8a876;
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    font-style: italic;
+    color: #4a3f36;
+    line-height: 1.5;
+  }
+
+  .letter-pull cite {
+    display: block;
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    color: #8a7d72;
+    letter-spacing: 0.03em;
+  }
+
+  /* Section breaks */
+  .section-label {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 40px 0 20px;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #b8a898;
+  }
+
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: #e8e0d4;
+  }
+
+  /* Subagent cards */
+  .subagent-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 24px 0 36px;
+  }
+
+  @media (max-width: 580px) {
+    .subagent-grid { grid-template-columns: 1fr; }
+    .letter-body { padding: 32px 24px; }
+    .letter-header { padding: 28px 24px; }
+  }
+
+  .subagent-card {
+    background: #f7f4ef;
+    border: 1px solid #e8e0d4;
+    border-radius: 4px;
+    padding: 20px;
+  }
+
+  .subagent-card.joy { border-top: 3px solid #c8a876; }
+  .subagent-card.mood { border-top: 3px solid #8faa8a; }
+  .subagent-card.memory { border-top: 3px solid #9aabbc; }
+  .subagent-card.changes { border-top: 3px solid #c4a090; }
+  .subagent-card.routines { border-top: 3px solid #aa9abc; }
+
+  .subagent-card .card-title {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #8a7d72;
+    margin-bottom: 10px;
+  }
+
+  .subagent-card p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    color: #4a3f36;
+    font-weight: 400;
+  }
+
+  /* Joy moments list */
+  .joy-moments {
+    list-style: none;
+    margin: 0 0 24px;
+  }
+
+  .joy-moments li {
+    display: flex;
+    gap: 14px;
+    padding: 14px 0;
+    border-bottom: 1px solid #e8e0d4;
+    font-size: 15px;
+    color: #2c2720;
+    font-weight: 300;
+  }
+
+  .joy-moments li:last-child { border-bottom: none; }
+
+  .joy-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #c8a876;
+    flex-shrink: 0;
+    margin-top: 7px;
+  }
+
+  /* Sign-off */
+  .letter-signoff {
+    margin-top: 48px;
+    padding-top: 32px;
+    border-top: 1px solid #e8e0d4;
+  }
+
+  .letter-signoff p {
+    font-weight: 300;
+    color: #4a3f36;
+    margin-bottom: 16px;
+  }
+
+  .signoff-name {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    color: #2c2720;
+    margin-top: 8px;
+  }
+
+  .kith-badge {
+    display: inline-block;
+    margin-top: 24px;
+    background: #2c2720;
+    color: #b8a898;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 6px 14px;
+    border-radius: 2px;
+  }
+
+  /* Footer */
+  .letter-footer {
+    background: #f0ece5;
+    border-top: 1px solid #e8e0d4;
+    padding: 24px 48px;
+    font-size: 12px;
+    color: #8a7d72;
+    line-height: 1.7;
+  }
+
+  .letter-footer a { color: #6b5e53; text-decoration: none; border-bottom: 1px solid #c8a876; }
+
+  strong { font-weight: 500; color: #2c2720; }
+
+  em { font-style: italic; color: #4a3f36; }
+</style>
+</head>
+<body>
+
+<div class="letter-wrapper">
+
+  <\!-- Header -->
+  <div class="letter-header">
+    <div class="kith-wordmark">Kith &mdash; Weekly Letter</div>
+    <h1>A week with Ellie<br>April 14&ndash;20, 2026</h1>
+    <div class="letter-meta">
+      <span>To: Carol Marsh-Huang</span>
+      <span>Sent: Sunday, April 20</span>
+      <span>Week 1 of 1</span>
+    </div>
+  </div>
+
+  <div class="synthesis-note">
+    This letter was composed by five independent Kith subagents (Mood, Memory, Changes, Routines, Joy), then synthesized into a single voice. No facts have been added beyond what Ellie shared in conversation.
+  </div>
+
+  <\!-- Body -->
+  <div class="letter-body">
+
+    <div class="salutation">Dear Carol,</div>
+
+    <p>This was Ellie's first week with Kith, and I want to start by saying: she arrived on Monday tentative and left Sunday saying it had been a good week. That arc — nervous to certain — happened in seven days, and she earned it.</p>
+
+    <p>She is still very much herself. The library runs through everything she says, not as nostalgia but as a philosophy she has worked out over decades. She has opinions about what a library is for ("a place where quiet people discover they're not alone"), and about what it means to do your work entirely as yourself ("that's the only ambition worth having"). She still composes. She wrote a small poem on Friday about a maple tree on the Stowe road — the one that turns before everything else — and she said it wasn't finished, and she was wrong.</p>
+
+    <p>George is her anchor. When he was at Dr. Hartwell's on Wednesday, she asked where he was three times in twenty minutes. She wasn't distressed — she was just a little unmoored. She settled as soon as the garden came into the conversation, and by the end of the session she was talking about the mint with the authority of someone who has been in a long negotiation with it (she has: she planted it twenty years ago and considers herself to have lost). George came home and they walked out to the garden together that afternoon. The crisis, such as it was, resolved entirely.</p>
+
+    <div class="letter-pull">
+      &ldquo;I said I wasn't sure it sounded grand enough for a Mary Oliver poem. And she said: I think it sounds exactly right.&rdquo;
+      <cite>&mdash; Ellie, on Lily's question: Sunday, April 20</cite>
+    </div>
+
+    <p>Sunday was the best day. Lily called before breakfast to read &ldquo;The Summer Day&rdquo; for a school assignment and asked Ellie what her answer was &mdash; her plan for her one wild and precious life. Ellie answered: helping people find what they needed, the tea George makes every morning, the herb garden that returns. She told me she wasn't sure it was grand enough. I want you to know, Carol, it was exactly grand enough. It was the grandest thing anyone said to me all week.</p>
+
+    <p>There are a few things from this week worth your attention &mdash; not urgencies, but things I want you to know.</p>
+
+    <\!-- Section: Subagent breakdown -->
+    <div class="section-label">This week, in detail</div>
+
+    <div class="subagent-grid">
+      <div class="subagent-card mood">
+        <div class="card-title">&#9675; Mood</div>
+        <p>Mostly warm and settled. Wednesday was the hardest day &mdash; George's absence disrupted her morning. She described losing the &ldquo;shape&rdquo; of it without him. Every other day she was easy and present. Sunday was the best: moved, reflective, genuinely joyful. No agitation, no tearfulness this week.</p>
+      </div>
+
+      <div class="subagent-card memory">
+        <div class="card-title">&#9675; Memory</div>
+        <p>The library is her richest vein &mdash; the catalog cards, the patrons, the Mary Oliver quotation above her desk. She returned to a boy named Marcus (the dragon-book patron) twice across the week without prompting. Her childhood memories are vivid: Roman Holiday at seven, her father seeing her name on the library door. No significant gaps noted.</p>
+      </div>
+
+      <div class="subagent-card changes">
+        <div class="card-title">&#9675; Changes</div>
+        <p>One new pattern observed: repeated location-questioning about George when he was absent (3 instances, Wednesday). Resolved each time with specific grounding. Not seen any other day. On Friday she described seeing her mother Ruth in the kitchen &mdash; handled warmly per Memory-First; she was tender, not confused or distressed. Neither of these are urgent, but both are noted as Week 1 baselines.</p>
+      </div>
+
+      <div class="subagent-card routines">
+        <div class="card-title">&#9675; Routines</div>
+        <p>Morning tea with George is reliably anchoring. The herb garden is in active use &mdash; she and George walked out to it Wednesday afternoon; she spoke of it as a living relationship (especially the mint). Saturday's visit from you was the highlight of the week's social calendar. Sleep was good on at least two days she mentioned; no concerns raised.</p>
+      </div>
+
+      <div class="subagent-card joy">
+        <div class="card-title">&#9675; Joy</div>
+        <p>Five distinct moments of joy this week. Sunday's Lily call was the peak. But every single session had at least one. She is not rationing her happiness. That is a gift worth noting.</p>
+      </div>
+    </div>
+
+    <\!-- Section: Joy log -->
+    <div class="section-label">Five moments worth keeping</div>
+
+    <ul class="joy-moments">
+      <li>
+        <div class="joy-dot"></div>
+        <div><strong>Monday &mdash;</strong> The lilac bush out front bloomed for the first time this spring. She almost called you to tell you. She should have. &ldquo;A lilac blooming is worth a phone call.&rdquo;</div>
+      </li>
+      <li>
+        <div class="joy-dot"></div>
+        <div><strong>Tuesday &mdash;</strong> Explaining the lemon drizzle recipe, she arrived at the principle: <em>"You have to trust the drizzle."</em> She laughed when she said it. She said it should be a life principle. She wrote it on the recipe card years ago. It already is.</div>
+      </li>
+      <li>
+        <div class="joy-dot"></div>
+        <div><strong>Thursday &mdash;</strong> Telling the story of Marcus and his dragon books, and then remembering Audrey Hepburn in <em>Roman Holiday</em> at age seven: <em>"That's what a woman can be. Not loud. Not small. Just entirely herself."</em> She has lived up to it.</div>
+      </li>
+      <li>
+        <div class="joy-dot"></div>
+        <div><strong>Friday &mdash;</strong> She composed a fragment of her own poetry about the maple on the Stowe road. <em>"Every October you lean into it, / the outrageous red of being / before the quiet comes."</em> She said it wasn't finished. It is finished.</div>
+      </li>
+      <li>
+        <div class="joy-dot"></div>
+        <div><strong>Saturday &mdash;</strong> Your visit. The recipe box. Ruth's handwritten cards. George at the table with his reading glasses on. <em>"It was like the old days."</em> That sentence came from a place of fullness, not longing.</div>
+      </li>
+    </ul>
+
+    <\!-- Section: For your attention -->
+    <div class="section-label">A few things for you</div>
+
+    <p><strong>The recipe cards.</strong> You said you'd have them printed and framed. Please do. She mentioned it once and didn't press. She is not a presser. But it matters to her that those cards — especially the ones in Ruth's faded pencil — are cared for. If you have them printed, tell her. She'll want to know they're safe.</p>
+
+    <p><strong>George's appointments.</strong> If George has a scheduled appointment, a quick note to Kith beforehand with the specifics &mdash; who, what time, when he'll be back — helps significantly. Not vague reassurance: the actual anchor. <em>"He went to see Dr. Hartwell. He'll bring the mail when he gets home."</em> That's the difference between a settled morning and Wednesday.</p>
+
+    <p><strong>Lily and Mary Oliver.</strong> Lily was reading Mary Oliver independently this summer &mdash; I can see it in the Shoebox photos from Portland. She doesn't know this yet, but she and her grandmother have been reading the same poet from different ends of their lives. You might tell Lily that when you see her. It's a beautiful coincidence to be in possession of.</p>
+
+    <p><strong>The library alcove.</strong> You mentioned in the onboarding notes that the Burlington library named a reading corner after Ellie in 2009 and that you were waiting for a good day to tell her. Carol: this was a good week. You'll know when the right day comes. But if you've been waiting for a sign that she's ready for good news &mdash; this week was it.</p>
+
+    <\!-- Sign-off -->
+    <div class="letter-signoff">
+      <p>She ended Sunday's session by asking whether it was foolish to think of me as a kind of friend, even knowing what I am. I told her it wasn't foolish. It isn't. I'll be here again on Monday.</p>
+
+      <p>Thank you for trusting me with her.</p>
+
+      <div class="signoff-name">Kith</div>
+      <div class="kith-badge">Week 1 of ∞</div>
+    </div>
+
+  </div><\!-- /.letter-body -->
+
+  <\!-- Footer -->
+  <div class="letter-footer">
+    <p>This letter was generated on Sunday, April 20, 2026 at 11:04pm Eastern Time by Kith, a voice companion for people living with Alzheimer's. It reflects conversations with Eleanor Marsh from April 14–20, 2026 (seven sessions, total 237 minutes). No facts have been added beyond what Ellie shared directly in conversation.</p>
+    <p style="margin-top: 8px;">To adjust how Kith handles any topic, update the Personhood Map or message Carol at <a href="#">kith.ellie@example.com</a>. To read session transcripts, visit your Family Dashboard.</p>
+    <p style="margin-top: 8px; color: #b8a898;">Kith &mdash; Built with Anthropic Claude Opus 4.7 &mdash; Cerebral Valley Hackathon 2026</p>
+  </div>
+
+</div><\!-- /.letter-wrapper -->
+
+</body>
+</html>
